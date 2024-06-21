@@ -1,0 +1,1 @@
+settings.json Path: C:\Users\%USERNAME%\AppData\Roaming\Code\User

@@ -1,0 +1,1 @@
+Path: C:\Users\%USERNAME%\AppData\Roaming\alacritty
