@@ -3,8 +3,8 @@
 </p>
 
 # Shaya's Personal Configs
-## Installation
-* Clone repo and move .config into your home directory
+Collection of personal configs and editor settings for development, including Alacritty, VSCode and Godot.
+Clone repo and move .config into your home directory.
 
 ## ZSH
 * Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
