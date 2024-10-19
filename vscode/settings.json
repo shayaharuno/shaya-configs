@@ -1,16 +1,15 @@
 {
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "top",
-    "editor.fontFamily": "JetBrains Mono, monospace",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "editor.fontWeight": "normal",
     "editor.fontVariations": true,
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 17,
     "editor.folding": true,
-    "godotTools.editorPath.godot4": "D:\\sw\\Godot\\Godot_v4.2.2-stable_win64.exe",
+    "godotTools.editorPath.godot4": "godot",
     "godotTools.inlayHints.gdscript": true,
     "godotTools.scenePreview.previewRelatedScenes": "anyFolder",
-    "workbench.productIconTheme": "icons-kamekazi-dark",
     "workbench.colorCustomizations": {
         "debugConsole.infoForeground": "#b9b9b9",
         "statusBar.background": "#1F1F28",
@@ -27,5 +26,7 @@
 
     },
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Kanagawa Wave"
+    "workbench.colorTheme": "Kanagawa Wave",
+    "window.menuBarVisibility": "compact",
+    "workbench.iconTheme": "file-icons",
 }
