@@ -1,37 +1,54 @@
 [colors]
 draw_bold_text_with_bright_colors = true
 
-[colors.bright]
-black = "#5b6268"
-blue = "#3071db"
-cyan = "#46d9ff"
-green = "#4db5bd"
-magenta = "#a9a1e1"
-red = "#da8548"
-white = "#dfdfdf"
-yellow = "#ecbe7b"
-
-[colors.cursor]
-cursor = "#528bff"
-text = "CellBackground"
-
-[colors.normal]
-black = "#1c1f24"
-blue = "#51afef"
-cyan = "#5699af"
-green = "#98be65"
-magenta = "#c678dd"
-red = "#ff6c6b"
-white = "#abb2bf"
-yellow = "#da8548"
+# Theme: enfocado_dark
+# Source:  https://github.com/wuelnerdotexe/vim-enfocado
 
 [colors.primary]
-background = "#1f1f28"
-foreground = "#dcd7ba"
+background = '#1f1f28'
+foreground = '#dcd7ba'
+
+# Normal colors
+[colors.normal]
+black   = '#3b3b3b'
+red     = '#ed4a46'
+green   = '#70b433'
+yellow  = '#dbb32d'
+blue    = '#368aeb'
+magenta = '#eb6eb7'
+cyan    = '#3fc5b7'
+white   = '#b9b9b9'
+
+# Bright colors
+[colors.bright]
+black   = '#777777'
+red     = '#ff5e56'
+green   = '#83c746'
+yellow  = '#efc541'
+blue    = '#4f9cfe'
+magenta = '#ff81ca'
+cyan    = '#56d8c9'
+white   = '#dedede'
 
 [colors.selection]
-background = "#2d4f67"
-text = "CellForeground"
+background = '#2d4f67'
+foreground = '#c8c093'
+
+[[colors.indexed_colors]]
+index = 16
+color = '#ffa066'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#ff5d62'
+
+[colors.hints]
+start = { foreground = "#1d1f21", background = "#e9ff5e" }
+end = { foreground = "#e9ff5e", background = "#1d1f21" }
+
+[colors.search]
+matches = { foreground = "#000000", background = "#ffffff" }
+focused_match = { foreground = "#ffffff", background = "#000000" }
 
 [env]
 TERM = "xterm-256color"
@@ -39,21 +56,10 @@ TERM = "xterm-256color"
 [font]
 size = 12.0
 
-[font.bold]
-family = "JetBrainsMono Nerd Font"
-style = "Bold"
-
-[font.bold_italic]
-family = "JetBrainsMono Nerd Font"
-style = "Bold Italic"
-
-[font.italic]
-family = "JetBrainsMono Nerd Font"
-style = "Italic"
-
 [font.normal]
+#family = "MesloLGS NF"
 family = "JetBrainsMono Nerd Font"
-style = "Regular"
+style = "Medium"
 
 [font.offset]
 x = 0
@@ -147,10 +153,10 @@ mods = "Shift"
 history = 5000
 
 [window]
-decorations = "None"
+decorations = "Full"
 dynamic_padding = true
-dynamic_title = false
-opacity = 1.0
+dynamic_title = true
+opacity = 0.9
 title = "Alacritty"
 
 [window.class]
