@@ -3,7 +3,7 @@
 </p>
 
 # Shaya's Personal Configs
-Collection of personal configs and editor settings for development, including Alacritty, VSCode and Godot.
+Collection of personal configs and editor settings for development for ZSH, Alacritty, VSCode and Godot.
 Clone repo and move .config and zsh files into your home directory.
 
 ## ZSH
