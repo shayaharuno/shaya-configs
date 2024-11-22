@@ -12,7 +12,7 @@
     "godotTools.scenePreview.previewRelatedScenes": "anyFolder",
     "workbench.colorCustomizations": {
         "debugConsole.infoForeground": "#b9b9b9",
-        "statusBar.background": "#1F1F28",
+        "statusBar.background": "#1E1E27",
         "statusBar.debuggingBackground": "#4F4F82",
         "editorHoverWidget.background": "#121218",
         "debugConsole.warningForeground": "#737383",
@@ -27,6 +27,9 @@
     },
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Kanagawa Wave",
-    "window.menuBarVisibility": "compact",
+    "vscord.app.name": "Visual Studio Code",
+    "window.menuBarVisibility": "hidden",
     "workbench.iconTheme": "file-icons",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true
 }
