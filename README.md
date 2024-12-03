@@ -13,6 +13,3 @@ echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zs
 * For clean configuration use `p10k configure` > (`~/.p10k.zsh`)
 * Install Auto Suggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 * Install Syntax Highlighting: `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-
-## Godot
-* Install [Minimal Theme](https://github.com/passivestar/godot-minimal-theme)

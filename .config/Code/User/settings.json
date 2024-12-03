@@ -31,5 +31,8 @@
     "window.menuBarVisibility": "hidden",
     "workbench.iconTheme": "file-icons",
     "editor.minimap.enabled": false,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "helium-icon-theme.activeIconPack": "",
+    "cmake.showOptionsMovedNotification": false
 }

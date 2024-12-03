@@ -1,0 +1,54 @@
+[gd_resource type="EditorSettings" load_steps=2 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_gsnya"]
+keycode = 4194326
+
+[resource]
+interface/theme/preset = "Custom"
+interface/theme/base_color = Color(0.113725, 0.113725, 0.14902, 1)
+interface/theme/accent_color = Color(0.901961, 0.760784, 0.517647, 1)
+interface/theme/use_system_accent_color = true
+interface/theme/contrast = 0.2
+interface/theme/icon_saturation = 2.0
+interface/theme/border_size = 1
+interface/theme/corner_radius = 0
+interface/theme/custom_theme = "/home/shaya/Godot/editor_theme.tres"
+filesystem/import/blender/blender_path = "/usr/bin/blender"
+text_editor/external/exec_path = "/usr/bin/code"
+text_editor/external/use_external_editor = true
+editors/3d/primary_grid_color = Color(0.560784, 0.560784, 0.560784, 0.172549)
+editors/3d/secondary_grid_color = Color(0.380392, 0.380392, 0.380392, 0.141176)
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+network/connection/network_mode = 1
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = ""
+export/android/debug_keystore = "/home/shaya/.local/share/godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/osslsigncode = ""
+export/windows/wine = ""
+_default_feature_profile = "NoScript"
+_use_favorites_root_selection = false
+network/debug_adapter/request_timeout = 1000
+_editor_settings_advanced_mode = false
+_project_settings_advanced_mode = false
+_export_template_download_directory = ""
+_script_setup_templates_dictionary = {}
+_script_setup_use_script_templates = false
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_gsnya")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}]
+metadata/script_setup_templates_dictionary = {
+"Control": "0NodeDefault",
+"Node": "0NodeDefault",
+"Node3D": "0NodeDefault",
+"TextureRect": "0NodeDefault"
+}
