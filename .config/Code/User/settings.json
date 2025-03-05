@@ -7,10 +7,11 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 17,
     "editor.folding": true,
-    "godotTools.editorPath.godot4": "godot",
+    "godotTools.editorPath.godot4": "C:\\Users\\shayaharuno\\Documents\\Godot\\Godot_v4.4-beta4_win64.exe",
     "godotTools.inlayHints.gdscript": true,
     "godotTools.scenePreview.previewRelatedScenes": "anyFolder",
     "workbench.colorCustomizations": {
+    
         "debugConsole.infoForeground": "#b9b9b9",
         "statusBar.background": "#1E1E27",
         "statusBar.debuggingBackground": "#4F4F82",
@@ -21,18 +22,26 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "explorer.confirmDelete": false,
-    "symbols.hidesExplorerArrows": false,
     "editor.codeActionsOnSave": {
 
     },
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Kanagawa Wave",
-    "vscord.app.name": "Visual Studio Code",
-    "window.menuBarVisibility": "hidden",
     "workbench.iconTheme": "file-icons",
     "editor.minimap.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "material-icon-theme.activeIconPack": "angular_ngrx",
-    "helium-icon-theme.activeIconPack": "",
-    "cmake.showOptionsMovedNotification": false
-}
+    "files.exclude": {
+        "**/*.uid": true,
+        "**/*.import": true,
+        "**/*.blend": true,
+        "**/*.blend1": true,
+        "**/*.aseprite": true,
+        "**/*.ase": true,                           
+    },
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+    "github.copilot.chat.edits.codesearch.enabled": true,
+    "github.copilot.advanced": {
+
+        
+    },
+    "window.customTitleBarVisibility": "windowed"
