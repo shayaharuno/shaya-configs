@@ -1,7 +1,7 @@
 {
     "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "top",
-    "editor.fontFamily": "JetBrains Mono, monospace",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "editor.fontWeight": "normal",
     "editor.fontVariations": true,
     "editor.fontLigatures": true,
@@ -9,7 +9,6 @@
     "editor.folding": true,
     "godotTools.editorPath.godot4": "C:\\Users\\shayaharuno\\Documents\\Godot\\Godot_v4.4-beta4_win64.exe",
     "godotTools.inlayHints.gdscript": true,
-    "godotTools.inlayHints.gdresource":,
     "godotTools.scenePreview.previewRelatedScenes": "anyFolder",
     "workbench.colorCustomizations": {
     
@@ -32,48 +31,59 @@
     "editor.minimap.enabled": false,
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
-        "**/*.uid": true,
         "**/*.import": true,
         "**/*.blend": true,
         "**/*.blend1": true,
         "**/*.aseprite": true,
         "**/*.ase": true,                           
     },
-    //"github.copilot.selectedCompletionModel": "gpt-4o-copilot",
-    //"github.copilot.chat.edits.codesearch.enabled": true,
-    //"github.copilot.advanced": {},
-    "window.customTitleBarVisibility": "never",
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+    "window.customTitleBarVisibility": "windowed",
+    "explorer.fileNesting.patterns": {
+        "*.gd": "${capture}.tscn, ${capture}.gd.uid",
+        "*.gdshader": "${capture}.gdshader.uid"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "vim.highlightedyank.enable": true,
     "editor.tokenColorCustomizations": {
-        "[Kanagawa Wave]": {
-            "textMateRules": 
-            [
-                {
-                    "name": "Constants and enums",
-                    "scope": [
-                        "variable.other.constant",
-                        "variable.other.enummember"
-                    ],
-                    "settings": {
-                        "foreground": "#f89860"
-                    }
-                },
-                {
-                    "name": "Keyword",
-                    "scope": "keyword",
-                    "settings": {
-                        "foreground": "#957fb8"
-                    }
-                },
-                // {
-                //     "name": "Variable",
-                //     "scope": [
-                //         "variable.parameter",
-                //     ],
-                //     "settings": {
-                //         "foreground": "#b8b4d0"
-                //     }
-                // },
-            ]
+            "[Kanagawa Wave]": {
+                "textMateRules": 
+                [
+                    {
+                        "name": "Constants and enums",
+                        "scope": [
+                            "variable.other.constant",
+                            "variable.other.enummember"
+                        ],
+                        "settings": {
+                            "foreground": "#f89860"
+                        }
+                    },
+                    {
+                        "name": "Keyword",
+                        "scope": "keyword",
+                        "settings": {
+                            "foreground": "#957fb8"
+                        }
+                    },
+                    // {
+                    //     "name": "Variable",
+                    //     "scope": [
+                    //         "variable.parameter",
+                    //     ],
+                    //     "settings": {
+                    //         "foreground": "#b8b4d0"
+                    //     }
+                    // },
+                ]
+            }
         }
-    }
+
 }
