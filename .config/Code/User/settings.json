@@ -9,6 +9,7 @@
     "editor.folding": true,
     "godotTools.editorPath.godot4": "C:\\Users\\shayaharuno\\Documents\\Godot\\Godot_v4.4-beta4_win64.exe",
     "godotTools.inlayHints.gdscript": true,
+    "godotTools.inlayHints.gdresource":,
     "godotTools.scenePreview.previewRelatedScenes": "anyFolder",
     "workbench.colorCustomizations": {
     
@@ -38,17 +39,24 @@
         "**/*.aseprite": true,
         "**/*.ase": true,                           
     },
-    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+    //"github.copilot.selectedCompletionModel": "gpt-4o-copilot",
     //"github.copilot.chat.edits.codesearch.enabled": true,
-    "github.copilot.advanced": {
-
-        
-    },
-    "window.customTitleBarVisibility": "windowed",
+    //"github.copilot.advanced": {},
+    "window.customTitleBarVisibility": "never",
     "editor.tokenColorCustomizations": {
         "[Kanagawa Wave]": {
             "textMateRules": 
             [
+                {
+                    "name": "Constants and enums",
+                    "scope": [
+                        "variable.other.constant",
+                        "variable.other.enummember"
+                    ],
+                    "settings": {
+                        "foreground": "#f89860"
+                    }
+                },
                 {
                     "name": "Keyword",
                     "scope": "keyword",
@@ -56,6 +64,15 @@
                         "foreground": "#957fb8"
                     }
                 },
+                // {
+                //     "name": "Variable",
+                //     "scope": [
+                //         "variable.parameter",
+                //     ],
+                //     "settings": {
+                //         "foreground": "#b8b4d0"
+                //     }
+                // },
             ]
         }
     }
