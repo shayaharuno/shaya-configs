@@ -32,7 +32,6 @@
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/*.import": true,
-        "**/*.blend": true,
         "**/*.blend1": true,
         "**/*.aseprite": true,
         "**/*.ase": true,                           
@@ -40,13 +39,13 @@
     "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
     "window.customTitleBarVisibility": "windowed",
     "explorer.fileNesting.patterns": {
-        "*.gd": "${capture}.tscn, ${capture}.gd.uid",
-        "*.gdshader": "${capture}.gdshader.uid"
+        "*.gd": "${capture}.tscn, ${capture}.gd.uid, ${capture}.gdshader, ${capture}.gdshader.uid, ${capture}.blend",
+        "*.gdshader" : "${capture}.gdshader.uid",
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": false,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
@@ -84,6 +83,10 @@
                     // },
                 ]
             }
+        },
+        "editor.cursorSmoothCaretAnimation": "off",
+        "github.copilot.advanced": {
+            
         }
 
 }
